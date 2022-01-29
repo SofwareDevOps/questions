@@ -36,12 +36,8 @@
 
 <br/>
 
-#### 7 - write and show in the dom the first 20 number Fibonacci sequence.
+#### 7 - create a hash game in javascript , manipule the dom for create interface for user in file html.   
 
 <br/>
 
-#### 8 - create a hash game in javascript , manipule the dom for create interface for user in file html.   
-
-<br/>
-
-#### 9 - create a hangman game in javascript.
+#### 8 - create a hangman game in javascript.

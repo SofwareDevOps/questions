@@ -17,8 +17,8 @@
 <br/>
 
 #### 3 - report results the following operations
-- (A) - 4 / 3 * 2 + 20 - 2 * 4  
-- (B) - 20 * 4 / 3 + 2
+-  4 / 3 * 2 + 20 - 2 * 4  
+-  20 * 4 / 3 + 2
 
 <br/>
 

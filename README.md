@@ -40,4 +40,4 @@
 
 <br/>
 
-#### 8 - create a hangman game in javascript.
+#### 8 - create a hangman game in javascript , manipule the dom for create interface for user in file html.   

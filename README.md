@@ -1,5 +1,7 @@
 ## QUESTIONS 
 
+## Delivery time until 05/02/2022.
+
 <br/>
 
 #### 0 - whats is DOM? and your structure?

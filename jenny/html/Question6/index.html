@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Question Six</title>
+        <meta charset="utf-8">
+      </head>
+  <body>
+        <script>
+            var data = new Date();
+            var dia     = data.getDate();           // 1-31
+            var mes     = data.getMonth();          // 0-11 (zero=janeiro)
+            var ano2    = data.getYear();           // 2 dígitos
+            var ano4    = data.getFullYear();
+
+            var str_data = ano4 + '/' + (mes + 1 )  + '/' + (dia - 1) + '/';
+
+            let url = "https://www.mercadobitcoin.net/api/",
+            qString = "BTC" + "/day-summary/" + str_data;
+            fetch(url + qString)
+                .then(function(resp) {
+                    return resp.json();
+                })
+                    .then(function(data) {
+                        document.write("Preço unitário médio das negociações no dia (BTC) : ")
+                        document.write(data.avg_price);
+                    })
+            
+        </script>
+</body>
+</html>
